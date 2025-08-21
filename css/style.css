@@ -17,12 +17,30 @@ a {
     color: #333;
 }
 
-ul {
-    list-style: none;
+h2 {
+    line-height: 2;
 }
 
 img {
     max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul.publications li {
+    padding: 15px 20px;
+    margin:  0.5ex 0;
+    background-color: #f7f7f7;
+    border-radius: 6px;
+    border-left: 4px solid #4ae;
+    font-weight: 500;
+    color: #333;
+}
+
+ul.publications li b {
+    font-weight: 1000;
 }
 
 /* Utility classes */
@@ -34,6 +52,6 @@ img {
 }
 
 .navbar {
-    background: #ee0;
+    background: #4ae;
     margin:
 }
